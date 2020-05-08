@@ -1,5 +1,7 @@
 package one.trueorigin.migrator;
 
+import one.trueorigin.migrator.exception.ConnectionStringException;
+import one.trueorigin.migrator.exception.NoFieldDefinedException;
 import org.junit.Ignore;
 import org.junit.Test;
 import java.sql.SQLException;

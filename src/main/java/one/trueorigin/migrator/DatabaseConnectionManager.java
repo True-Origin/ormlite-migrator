@@ -1,5 +1,7 @@
 package one.trueorigin.migrator;
 
+import one.trueorigin.migrator.exception.ConnectionStringException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

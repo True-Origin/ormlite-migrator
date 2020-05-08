@@ -2,6 +2,7 @@ package one.trueorigin.migrator;
 
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
+import one.trueorigin.migrator.exception.DataTypeInvalidException;
 
 import java.util.Date;
 

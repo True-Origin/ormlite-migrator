@@ -2,6 +2,7 @@ package one.trueorigin.migrator;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
+import one.trueorigin.migrator.exception.NoFieldDefinedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
