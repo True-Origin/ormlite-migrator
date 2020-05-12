@@ -2,9 +2,32 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>ORMLite Migrator</name>
+    <description>
+        Hibernate like orm schema migrator for ormlite.
+    </description>
+    <url>https://github.com/True-Origin/ormlite-migrator</url>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://raw.githubusercontent.com/ConvertAPI/convertapi-java/master/LICENSE.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+
+    <developers>
+        <developer>
+            <id>debarshibasak</id>
+            <name>Debarshi Basak</name>
+            <email>debarshri@gmail.com</email>
+        </developer>
+    </developers>
+
     <groupId>one.trueorigin</groupId>
     <artifactId>migrator</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -22,7 +45,7 @@
         <connection>scm:git:git://github.com/True-Origin/ormlite-migrator.git</connection>
         <developerConnection>scm:git:git@github.com/True-Origin/ormlite-migrator.git</developerConnection>
         <url>https://github.com/True-Origin/ormlite-migrator</url>
-        <tag>migrator-1.0.1</tag>
+        <tag>migrator-1.0.4</tag>
     </scm>
 
     <build>
@@ -118,11 +141,6 @@
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
-        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
