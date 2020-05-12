@@ -4,7 +4,7 @@
 
     <groupId>one.trueorigin</groupId>
     <artifactId>migrator</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -30,6 +30,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -60,7 +61,7 @@
                     <localCheckout>true</localCheckout>
                     <pushChanges>false</pushChanges>
                     <mavenExecutorId>forked-path</mavenExecutorId>
-                    <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
+                    <arguments>-Dgpg.passphrase=${passphrase}</arguments>
                 </configuration>
                 <dependencies>
                     <dependency>
