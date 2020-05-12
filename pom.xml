@@ -4,7 +4,7 @@
 
     <groupId>one.trueorigin</groupId>
     <artifactId>migrator</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -22,7 +22,7 @@
         <connection>scm:git:git://github.com/True-Origin/ormlite-migrator.git</connection>
         <developerConnection>scm:git:git@github.com/True-Origin/ormlite-migrator.git</developerConnection>
         <url>https://github.com/True-Origin/ormlite-migrator</url>
-        <tag>migrator-1.0.1</tag>
+        <tag>migrator-1.0.3</tag>
     </scm>
 
     <build>
@@ -101,9 +101,6 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.6</version>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -121,6 +118,11 @@
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
