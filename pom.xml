@@ -4,7 +4,7 @@
 
     <groupId>one.trueorigin</groupId>
     <artifactId>migrator</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -22,7 +22,7 @@
         <connection>scm:git:git://github.com/True-Origin/ormlite-migrator.git</connection>
         <developerConnection>scm:git:git@github.com/True-Origin/ormlite-migrator.git</developerConnection>
         <url>https://github.com/True-Origin/ormlite-migrator</url>
-        <tag>migrator-1.0.2</tag>
+        <tag>migrator-1.0.1</tag>
     </scm>
 
     <build>
